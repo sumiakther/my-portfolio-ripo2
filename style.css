@@ -1,0 +1,343 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navheader{
+    height: 100vh;
+    width: 100vw;
+    background: #d0b7b9;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+ nav ul li {
+    display:inline-block;
+   padding-right: 20px;
+
+ }
+    
+nav ul li a {
+    font-weight: bold;
+    color: rgb(26, 24, 24);
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.logo::first-letter{
+    font-size: 40px;
+    border: 2px solid black;
+    border-right: transparent;
+    color: rgb(227, 14, 25);
+}
+.navbtn{
+   background-color: rgb(200, 64, 141);
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 700px;
+    text-transform: uppercase;
+    border: 3px solid rgb(100, 23, 168);
+}
+.navbtn:hover{
+    background: white;
+    color: orange;
+    
+}
+.info{
+    position: absolute;
+    top: 40%;
+    left: 12%;
+}
+.info h1{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 100px;
+}
+.info h1 span{
+    color: rgb(103, 27, 190);
+    font-size: 90px;
+}
+.info . infotitile{
+    font-size: 22px;
+    width: 75%;
+}
+.dwncv{
+    background-color: white;
+    color: orange;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    border: 4px solid brown;
+}
+.image{
+    position: absolute;
+    top: 20%;
+    left: 68%;
+    background-color: bisque;
+    border-radius: 10px;
+    
+    
+}
+.image img{
+    border-radius: 80px;
+
+}
+.aboutme{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(175, 180, 203);
+    display: flex;
+    
+}
+
+.aboutme img{
+    position: absolute;
+    left: 20%;
+    top: 120%;
+    border-radius: 10%;
+    
+
+    
+    
+}
+.dets{
+    position: absolute;
+    left: 50%;
+    top: 120%;
+    
+}
+.jobinfo{
+    font-size: 22px;
+    width: 320px;
+    text-align: justify;
+}
+.dets h1{
+    color: rgb(130, 27, 36);
+    font-size: 65px;
+}
+.jobtitle{
+    color: rgb(43, 12, 168);
+    font-weight: 800;
+    line-height: 50px;
+}
+.talkbtn{
+    background-color: rgb(255, 230, 0);
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    margin-top: 25px;
+    text-align: center;
+    color: rgb(172, 52, 52);
+    font-size: 700;
+    cursor: pointer;
+    border: 4px solid brown;
+}
+.Servicecon {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(131, 121, 125);
+    display: flex;
+    justify-content: space-evenly;
+}
+.Servicecon h1{
+    text-align: center;
+    position: absolute;
+    color: orange;
+    font-size: 65px;
+    margin-top: 6%;
+}
+.box{
+    height: 360px;
+    width: 300px;
+    background-color: rgb(220, 215, 207);
+    margin-top: 15%;
+    border-radius: 10%;
+    text-align: center;
+    overflow: hidden;
+    border: 4px solid rgb(178, 60, 68);
+}
+.box img{
+    height: 60px;
+    width: 60px;
+    margin: 15px 0px;
+}
+.box h3{
+    font-weight: 800;
+    color: rgb(182, 51, 51);
+    margin-bottom: 20px;
+}
+.box p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    color: blue;
+}
+.boxbtn{
+    margin-top: 50px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 800;
+    text-transform: uppercase;
+    border: 2px solid blue;
+    background-color: bisque;
+}
+.portfolio{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(66, 186, 186);
+    text-align: center;
+}
+.port{
+    padding-top: 80px;
+    margin-bottom: 30px;
+}
+.sa p{
+    padding-top:30px;
+    font-size: 25px;
+    font-family: cursive;
+    color: white;
+    text-align: center;
+    
+}
+.picture img{
+    width: 350px;
+    height:250px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.navt{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 40px;
+    margin: 10px 10px;
+}
+.a{
+    border: 2px solid rgb(143, 50, 50);
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: orange;
+    
+}
+.b{
+    border: 2px solid rgb(144, 41, 41);
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: orange;
+}
+.c{
+    border: 2px solid rgb(143, 57, 57);
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: orange;
+
+}
+.d{
+    border: 2px solid rgb(144, 54, 54);
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: orange;
+
+}
+.picture{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 15px;
+}
+.div{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.form{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgb(101, 134, 135);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form form{
+    display: flex;
+    flex-direction:column;
+    padding: 40px;
+    border: 0 solid;
+    width: 33%;
+}
+.form form input{
+    margin: 5px;
+   
+    font-size: 1.1rem;
+    padding: 5px;
+    border: 1px soli white;
+    width: 420px;
+    background-color: rgb(203, 178, 145);
+   
+}
+.form form textarea{
+    margin: 5px;
+    font-size: 1.1rem;
+    padding: 5px;
+    border:1px solid white ;
+}
+.form form button{
+    align-self: center;
+    padding: 10px 40px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    top:478%;
+    
+} 
+.form form h1{
+    text-align: center;
+    padding: 20px 30px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color:burlywood;
+    color: black;
+    border: 2px solid rgb(144, 43, 43);
+    
+}
+.form form p{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+textarea{
+    background-color: antiquewhite;
+}
